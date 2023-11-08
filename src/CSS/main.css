@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    font-family: "Roboto";
+    color: #4D4D4D;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/backgroundNoise.webp');
+  background-repeat: repeat;
+  background-position: top;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+::selection {
+    background-color: rgba(19, 189, 142, 0.7);
+    color: white;
+}
+
+*::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+  
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #4D4D4D, #6C846D);
+}
+
+div {
+    position: relative;
+    display: flex;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+}
+
+p {
+    white-space: pre-line;
+    margin: 0px 0px 10px 0px;
+    font-size: 17px;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,1252 @@
+.headerButton {
+    display: none;
+}
+.headerOverlay {
+    display: none;
+}
+
+.header {
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    z-index: 10;
+}
+
+.headerContent {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.logo {
+    width: 230px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.headerLi {
+    font-family: "Roboto";
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px 120px 0px 0px;
+    text-shadow: 0 0 4px rgba(255,255,255, 0);
+    cursor: pointer;
+}
+.headerLi:last-child {
+    margin: 0px;
+}
+.headerLi:hover {
+    text-shadow: 0 0 4px rgba(255,255,255, 1);
+}
+
+.screen {
+    justify-content: center;
+    width: 100%;
+    margin: 0px 0px 150px 0px;
+}
+
+.screen:last-of-type {
+    margin-bottom: 50px;
+}
+
+.screen.mainScreen {
+    width: calc(100% - 0px);
+    height: 57vw;
+    padding: 0;
+    margin: 0px 0px 70px 0px;
+}
+
+.slideContainer {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.slideContent {
+    width: 100%;
+    height: 100%;
+}
+
+.screen1Slide {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s;
+}
+.screen1Slide.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.slide {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(100% - 400px);
+    height: 100%;
+    padding: 0px 200px;
+    color: white;
+    overflow: visible;
+}
+
+.slideBackgroundBlock {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide1 .slideBackgroundBlock {
+    height: 100%;
+}
+
+.slideBackgroundImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.slideBackgroundImage img {
+    left: unset;
+    top: unset;
+    transform: unset;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    /* object-fit: cover; */
+    /* object-position: bottom; */
+}
+
+.slideIllustrationBlock {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.screen1Slide1 .slideImage1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10vw;
+    height: 13vw;
+    transform: translate(calc(-50% - 30vw), calc(-50% - -13vw));
+    z-index: 1;
+}
+.screen1Slide1 .slideImage2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50vw;
+    height: 15.2vw;
+    transform: translate(calc(-50% - 12vw), calc(-50% + 17.7vw));
+    z-index: 0;
+}
+.screen1Slide1 .slideImage3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 24vw;
+    height: 15vw;
+    transform: translate(calc(-50% + 34.8vw), calc(-50% - 12.4vw ));
+    z-index: 0;
+}
+
+
+
+
+
+
+
+.screen1Slide2 .slideImage1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8vw;
+    height: 8vw;
+    transform: translate(calc(-50% - 31vw), calc(-50% - -6.7vw));
+    z-index: 1;
+}
+.screen1Slide2 .slideImage2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6vw;
+    height: 9vw;
+    transform: translate(calc(-50% - -29.6vw), calc(-50% + -3.5vw));
+    z-index: 0;
+}
+
+
+
+
+
+
+.screen1Slide3 .slideImage1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8vw;
+    height: 8vw;
+    transform: translate(calc(-50% - 33vw), calc(-50% - -9vw));
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.screen1Slide4 .slideBackgroundImage {
+    filter: brightness(0.8);
+}
+.screen1Slide4 .slideImage1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12vw;
+    height: 12vw;
+    transform: translate(calc(-50% - -26vw), calc(-50% - -13vw));
+    z-index: 1;
+}
+.screen1Slide4 .slideImage2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4.5vw;
+    height: 4.5vw;
+    transform: translate(calc(-50% - -18vw), calc(-50% - -12vw));
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+.screen1Slide5 .slideImage1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6vw;
+    height: 6vw;
+    transform: translate(calc(-50% - 19vw), calc(-50% - -14.2vw));
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screenContent {
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.title {
+    font-family: "FuturaFuturis";
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+
+.screen1Slide .title {
+    position: absolute;
+    left: unset;
+    top: 35%;
+    width: 100%;
+    max-width: 1280px;
+    font-size: 4.2vw;
+    line-height: 1;
+    color: white;
+}
+.screen1Slide .description {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: unset;
+    top: 27.3%;
+    width: 100%;
+    max-width: 1280px;
+    font-family: "Roboto";
+    font-size: 1.45vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+.screen1Slide .description:after {
+    content: '';
+    width: 31.5vw;
+    height: 5px;
+    margin: 10px 0px 0px 0px;
+    background-image: url('/images/whiteLine.svg');
+    background-size: 100%;
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+}
+
+.buttonsBlock {
+    align-self: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.buttonsBlock button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 50px;
+    border: 1px solid #898A8D;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.mainScreen .buttonsBlock {
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, 0);
+}
+
+.mainScreen .buttonsBlock a, .screen5 .buttonsBlock a {
+    margin: 0px 20px;
+}
+
+.buttonImg {
+    width: 23px;
+    height: 23px;
+    margin: 0px 10px 0px 0px;
+}
+.buttonText {
+    font-family: "Roboto";
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.screen.mainScreen .slideNavBlock {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    top: 62%;
+}
+
+.slidePoint {
+    margin: 0px 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.slidePoint:first-child {
+    margin: 0px 5px 0px 15px;
+}
+.slidePoint:last-child {
+    margin: 0px 15px 0px 5px;
+}
+
+.slidePoint.active {
+    background-color: white;
+}
+
+.slideArrowNext {
+    width: 30px;
+    height: 12px;
+    background-image: url('/images/arrowNextWhite.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.slideArrowPrev {
+    width: 30px;
+    height: 12px;
+    background-image: url('/images/arrowPrevWhite.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen2 .screenContent{
+    flex-direction: column;
+}
+
+.screen2 .block1 {
+    flex-direction: column;
+}
+
+.screen2 .text {
+    flex-direction: column;
+    justify-content: center;
+}
+p strong {
+    font-weight: 600;
+}
+.screen2 .title, .screen3 .title, .screen4 .title {
+    flex-direction: column;
+    font-size: 45px;
+    width: fit-content;
+}
+
+.screen2 .title:after, .screen3 .title:after, .screen4 .title:after {
+    content: '';
+    width: 670px;
+    height: 5px;
+    margin: 5px 0px 0px 0px;
+    background-image: url('/images/blackLine.svg');
+    background-size: 100%;
+    background-position: -30px;
+    background-repeat: no-repeat;
+}
+
+.screen2 .description {
+    margin: 25px 0px 0px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.block {
+    margin: 30px 0px 0px 0px;
+}
+
+.videoBlock {
+    min-width: 33vw;
+    width: 33vw;
+    height: 20vw;
+    margin: 0px 100px 0px 0px;
+    border-radius: 1vw;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.videoBlock video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.screen2 .text p {
+    font-size: 16px;
+    margin: 0px 0px 30px 0px;
+}
+
+.screen2 .text a {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.screen2 .block3 {
+    justify-content: center;
+}
+
+.screen2 .buttonsBlock {
+    flex-direction: column;
+}
+
+.screen2 .buttonsBlock a , .screen2 button {
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #4D4D4D;
+    width: 550px;
+    margin: 0px 0px 20px 0px;
+}
+
+.screen2 button {
+    margin: 0;
+}
+
+.screen2 .block3 {
+    margin: 50px 0px 0px 0px;
+}
+
+.screen2 .illustrationBlock {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.screen2 .imageBlock1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(calc(-50% + 400px), calc(-50% - 50px));
+    width: 1000px;
+    height: 140px;
+}
+
+.screen2 .imageBlock2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(calc(-50% + 520px), calc(-50% - 110px));
+    width: 160px;
+    height: 160px;
+}
+
+.screen2 .buttonsBlock a:last-child {
+    margin: 0;
+}
+
+
+.screen3 .block1 {
+    flex-direction: column;
+}
+.screen3 {
+    flex-direction: column;
+    align-items: center;
+}
+.screen3 .description {
+    font-size: 20px;
+    max-width: 50vw;
+    margin: 30px 0px 0px 0px;
+}
+
+.screen4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 0px;
+}
+
+.location {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.25s;
+}
+.location.opened {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.locationContent {
+    flex-direction: column;
+    height: 390px;
+    width: 100%;
+    transition: 1s;
+}
+
+.locationName {
+    font-family: "Roboto";
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.locationInfoBlock {
+    margin: 20px 0px 0px 0px;
+}
+
+.locationInfoBlock .image {
+    width: 35px;
+    height: 35px;
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 5px 0px 0px;
+}
+
+.destinationBlock {
+    align-items: flex-end;
+    margin: 0px 40px 0px 0px;
+}
+
+.stopBlock {
+    align-items: flex-end;
+    margin: 0px 40px 0px 0px;
+}
+
+.timeBlock {
+    align-items: flex-end;
+    margin: 0px 0px 0px 0px;
+}
+
+.locationDescription {
+    flex-direction: column;
+    max-width: 670px;
+    margin: 50px 0px 0px 0px;
+}
+
+.locationDescription span.more {
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 0px 0px 0px 7px;
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.15s;
+}
+.locationDescription span.more.hidden {
+    pointer-events: none;
+    opacity: 0;
+}
+
+p strong {
+    font-weight: 500;
+    color: #6C846D;
+}
+
+.pMain {
+    display: block;
+}
+
+.pOpened {
+    height: 0;
+    flex-direction: column;
+    overflow: hidden;
+    transform: 0.15s;
+}
+.pOpened p {
+    height: 0;
+    opacity: 0;
+    transition: 0.35s 0s;
+}
+.pOpened.active {
+    height: 100%;
+}
+
+.pOpened.active p {
+    height: 100%;
+    opacity: 1;
+    transition: 0.15s 0.1s;
+}
+
+
+
+.destinationBlock .image {
+    background-image: url('/images/location.svg');
+}
+.stopBlock .image {
+    background-image: url('/images/house.svg');
+}
+.timeBlock .image {
+    background-image: url('/images/time.svg');
+}
+
+.screen5 .title {
+    justify-content: center;
+    font-size: 45px;
+    width: 100%;
+}
+
+.screen5 .buttonsBlock {
+    margin: 100px 0px 0px 0px;
+}
+
+.screen5 {
+    margin: 300px 0px 150px 0px;
+}
+
+.screen5Image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0px, -100%);
+    width: 450px;
+    height: 300px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6C846D;
+    color: white;
+}
+
+.footerMenu {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.footerLeft {
+    flex-direction: column;
+}
+
+.footerDescription {
+    font-family: "Roboto";
+    margin: 10px 0px 0px 0px;
+}
+
+.footerContacts {
+    flex-direction: column;
+}
+
+.contactsTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contactsBlock {
+    margin: 20px 0px 0px 0px;
+}
+
+.contactsColumn {
+    flex-direction: column;
+    margin: 0px 50px 0px 0px;
+}
+
+.contactsColumn:last-child {
+    margin: 0;
+}
+
+.contactsTextBlock {
+    align-items: center;
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+}
+.contactsTextBlock:last-child {
+    margin: 0px 0px 10px 0px;
+}
+
+.contactsIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mail .contactsIcon {
+    background-image: url('/images/mail.svg');
+}
+.youtube .contactsIcon {
+    background-image: url('/images/youtube.svg');
+    background-size: 85%;
+}
+.vk .contactsIcon {
+    background-image: url('/images/vk.svg');
+    background-size: 65%;
+}
+
+.telegram .contactsIcon {
+    background-image: url('/images/telegram.svg');
+    background-size: 70%;
+}
+.phone .contactsIcon {
+    background-image: url('/images/phone.svg');
+    background-size: 50%;
+}
+.dzen .contactsIcon {
+    background-image: url('/images/dzen.svg');
+    background-size: 70%;
+}
+
+
+.screen.screen6 {
+    margin: 0;
+    z-index: 0;
+}
+
+.footerBackground {
+    width: 100%;
+    height: 670px;
+}
+
+.footerBackground img {
+    object-fit: cover;
+    object-position: top;
+    z-index: 0;
+}
+
+.footerImage {
+    position: absolute;
+    left: 0;
+    top: -150px;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+.footerImage img {
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+
+
+
+
+
+/* SWIPER */
+
+.screen3 .swiper-slide {
+    transition: 0.25s;
+}
+
+.swiper-pagination {
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    bottom: 12px;
+    z-index: 1;
+}
+
+.swiper-button-next {
+    position: absolute;
+    left: 50%;
+    transform: translate(calc(-50% + 50px) , 2px);
+    width: 40px;
+    height: 15px;
+    bottom: 0px;
+    background-image: url("/images/arrowNext.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    left: 50%;
+    transform: translate(calc(-50% - 50px) , 2px);
+    width: 40px;
+    height: 15px;
+    bottom: 0px;
+    background-image: url("/images/arrowPrev.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #7D927D;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #7D927D;
+}
+
+
+
+
+
+/* SCREEN3 ITEM */
+
+.screen3 .swiper {
+    height: 360px;
+    padding: 0 50px;
+    cursor: grab;
+}
+
+.screen3 .block2 {
+    width: 100%;
+}
+
+
+.screen3Item {
+    flex-direction: column;
+    width: 100%;
+    min-width: 21vw;
+    height: 320px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.screen3Item .topPart {
+    height: 57%;
+}
+.screen3Item .bottomPart {
+    flex-direction: column;
+    height: 42%;
+    padding: 0px 0px 10px 0px;
+}
+.screen3Item .backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.screen3Item .backgroundImage img{
+    object-fit: cover;
+}
+
+.s3infoContent {
+    padding: 15px 30px;
+}
+
+.s3itemInfo {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s3itemName {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px 0px 4px 0px;
+    font-weight: 500;
+}
+
+.s3itemType {
+    font-size: 12px;
+    color: #898A8D;
+}
+
+.s3itemPanel {
+    align-items: center;
+    justify-content: center;
+    padding: 4px 20px;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    width: 180px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* backdrop-filter: blur(20px); */
+}
+
+.s3itemPanel .icon {
+    width: calc(25%);
+    height: 100%;
+    margin: 0px 20px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.s3itemPanel .icon:last-child {
+    margin: 0px 0px 0px 0px;
+}
+
+.s3itemPanel .icon.car {
+    background-image: url('/images/car.svg')
+}
+.s3itemPanel .icon.bigCar {
+    background-image: url('/images/bigCar.svg')
+}
+.s3itemPanel .icon.backCar {
+    background-image: url('/images/backCar.svg')
+}
+.s3itemPanel .icon.weather {
+    background-image: url('/images/weather.svg')
+}
+
+.s3itemIcon {
+    width: 50px;
+    height: 50px;
+    margin: 0px 15px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.s3itemIcon.place {
+    background-image: url('/images/placeIcon.svg');
+}
+.s3itemIcon.cafe {
+    background-image: url('/images/cafeIcon.svg');
+}
+.s3itemIcon.stop {
+    background-image: url('/images/stopIcon.svg');
+}
+.s3itemIcon.glamp {
+    background-image: url('/images/glampIcon.svg');
+}
+.s3itemIcon.camping {
+    background-image: url('/images/stopIcon.svg');
+}
+.s3itemIcon.tentCity {
+    background-image: url('/images/tentIcon.svg');
+}
+
+button.s3button {
+    align-self: center;
+    width: fit-content;
+    background-color: white;
+    border: 1px solid #4D4D4D;
+    border-radius: 10px;
+    padding: 16px 35px;
+    font-size: 12px;
+    color: #4D4D4D;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    inset: unset;
+    transition: 0.15s;
+}
+
+button.s3button:hover {
+    color: #6C846D;
+    border: 1px solid #6C846D;
+}
+
+
+
+
+
+
+/* SCREEN4 ITEM */
+.sliderBlock {
+    width: 100vw;
+    height: 100%;
+    overflow: visible;
+    justify-content: center;
+    transform: translateX(0px);
+}
+
+.screen4 .block1 {
+    flex-direction: column;
+}
+
+.screen4 .description {
+    max-width: 900px;
+    margin: 20px 0px 0px 0px;
+}
+
+.screen4 .block3 {
+    width: 100%;
+    transition: 0.25s;
+}
+
+.screen4Item {
+    width: 20vw;
+    min-width: 20vw;
+    height: 30vw;
+    margin: 0px 1vw;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    transform-origin: 50% 0;
+    transition: 0.25s;
+}
+.screen4Item.opened {
+    width: 45vw;
+    min-width: 45vw;
+}
+
+.s4ItemBackground {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.s4ItemBackground img {
+    opacity: 0;
+    pointer-events: none;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.s4ItemBackground img.active {
+    opacity: 1;
+}
+
+.s4Name {
+    position: relative;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.25s;
+}
+
+.s4Name span {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+}
+.s4Name span.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.screen4Item.opened .s4Name {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.15s;
+}
+
+.screen4Item:hover .overlay{
+    opacity: 1;
+}
+.screen4Item.opened:hover .overlay {
+    opacity: 0;
+}
+
+.screen4 .plusIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-image: url('/images/plusIcon.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.transformBlock {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainScreen .swiper-pagination {
+    bottom: 500px;
+}
+
+.mainScreen .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+.mainScreen .swiper-button-prev {
+    bottom: 500px;
+}
+.mainScreen .swiper-button-next {
+    bottom: 500px;
+}
+
+
+
+

@@ -1,0 +1,1026 @@
+@media (max-width: 1920px) {
+    .swiper-button-next {
+        transform: translate(calc(-50% + 65px) , 2px);
+    }
+
+    .swiper-button-prev {
+        transform: translate(calc(-50% - 65px) , 2px);
+    }
+}
+
+
+@media (max-width: 1680px) {
+    .slide {
+        width: calc(100% - 160px);
+        padding: 0px 80px;
+    }
+    .screen.screen2 {
+        margin: -100px 0px 150px 0px;
+    }
+
+    .screen1Slide .description {
+        left: unset;
+        width: 100%;
+        max-width: 1280px;
+    }
+    .screen1Slide .description:after {
+        width: 31.5vw;
+    }
+
+    .screen1Slide .title {
+        left: unset;
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    .s3itemPanel {
+        width: 12vw;
+        height: 2vw;
+    }
+
+    .s3itemIcon {
+        width: 3.5vw;
+        min-width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .s3itemName {
+        font-size: 17px;
+    }
+
+    .screen3Item {
+        min-width: unset;
+        height: 20vw;
+    }
+
+    .screen3Item .topPart {
+        min-height: 57%;
+        height: 57%;
+    }
+
+    button.s3button {
+        padding: 15px 35px;
+        font-size: 12px;
+    }
+
+    .screen4 .swiper-slide:first-child {
+        margin-left: 0px;
+    }
+
+    .screen4 .swiper-slide.active:first-child {
+        margin-left: 420px !important;
+    }
+
+    .screen.mainScreen .slideNavBlock {
+        top: 63%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .screenContent {
+        max-width: 1150px;
+    }
+
+    .headerContent {
+        max-width: 1150px;
+    }
+
+    .screen1Slide .title {
+        max-width: 1150px;
+    }
+    .screen1Slide .description {
+        max-width: 1150px;
+    }
+
+    .footerMenu {
+        padding: 0px 80px;
+        width: calc(100% - 160px);
+        max-width: unset;
+    }
+
+    .screen4Item {
+        height: 32vw;
+    }
+
+    .screen3Item {
+        min-width: unset;
+        height: 22vw;
+    }
+
+    .s3itemName {
+        font-size: 16px;
+    }
+
+    .swiper-button-next {
+        transform: translate(calc(-50% + 75px) , 2px);
+    }
+    .swiper-button-prev {
+        transform: translate(calc(-50% - 75px) , 2px);
+    }
+
+    .screen1Slide4 .slideImage1 {
+        transform: translate(calc(-50% - -33vw), calc(-50% - -13vw));
+    }
+    .screen1Slide4 .slideImage2 {
+        transform: translate(calc(-50% - -25vw), calc(-50% - -12vw));
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .screen2 .block2 {
+        flex-direction: column;
+    }
+
+    .screenContent, .headerContent , .screen1Slide .title, .screen1Slide .description{
+        max-width: 900px;
+    }
+
+    .screen.mainScreen .slideNavBlock {
+        top: 67%;
+    }    
+
+    .screen3Item {
+        height: 90%;
+    }
+
+    .swiper-button-prev {
+        width: 35px;
+        height: 10px;
+        transform: translate(calc(-50% - 70px) , 0px);
+    }
+
+    .swiper-button-next {
+        width: 35px;
+        height: 10px;
+        transform: translate(calc(-50% + 70px) , 0px);
+    }
+
+    .s3itemPanel {
+        width: 13.6vw;
+        height: 2.8vw;
+        padding: 0.2vw 1.5vw;
+    }
+
+    .s3itemPanel .icon {
+        background-size: contain;
+        margin: 0px 17px 0px 0px;
+    }
+
+    .slide .screenContent {
+        top: 250px;
+        padding: 0;
+    }
+
+    .videoBlock {
+        min-width: 570px;
+        width: 570px;
+        height: 320px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .screen4Item {
+        width: 310px;
+        min-width: 310px;
+        height: 470px;
+    }
+
+    .screen4Item.opened {
+        width: 700px;
+        min-width: 700px;
+    }
+
+    .logo {
+        width: 190px;
+        height: 70px;
+    }
+
+    .headerLi {
+        margin: 0px 30px 0px 0px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .screen2 .text {
+        max-width: 700px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .screen2 .imageBlock1 {
+        transform: translate(calc(-50% + 220px), calc(-50% - 50px));
+    }
+
+    .screen2 .imageBlock2 {
+        transform: translate(calc(-50% + 380px), calc(-50% - 110px));
+    }
+
+    .screen3 {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .screen2 .title, .screen3 .title, .screen4 .title {
+        font-size: 35px;
+    }
+
+    .screen3 .description {
+        max-width: 800px;
+    }
+
+    .screen4 {
+        margin: 80px 0px 0px 0px;
+    }
+
+    .screen5 .title {
+        font-size: 35px;
+    }
+
+    .screen5 .buttonsBlock {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .footer .logo {
+        width: 140px;
+    }
+
+    .footerDescription {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .contactsTitle {
+        font-size: 18px;
+    }
+
+    .contactsIcon {
+        margin: 0px 5px 0px 0px;
+    }
+
+    .contactsTextBlock {
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .screen1Slide2 .slideImage1 {
+        transform: translate(calc(-50% - 9vw), calc(-50% - -11.7vw));
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .screenContent, .headerContent , .screen1Slide .title, .screen1Slide .description{
+        max-width: 700px;
+    }
+
+
+    .headerLi {
+        font-size: 16px;
+    }
+
+    .screen1Slide .title {
+        top: 40%;
+        max-width: 700px;
+        font-size: 45px;
+    }
+
+    .screen1Slide .description {
+        top: 31%;
+        font-size: 16px;
+    }
+
+    .screen1Slide .description:after {
+        width: 365px;
+        margin: 3px 0px 0px 0px;
+    }
+
+    .mainScreen .buttonsBlock {
+        flex-direction: column;
+        left: unset;
+        transform: unset;
+        top: 70%;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .screen1Slide1 .slideImage1 {
+        display: none;
+    }
+
+    .mainScreen .buttonsBlock a {
+        margin: 0px 0px 1vw 0px;
+        width: fit-content;
+    }
+
+    .screen.mainScreen .slideNavBlock {
+        width: 100%;
+        max-width: 700px;
+        left: 97%;
+        top: 50%;
+        transform: translate(-50%, 0) rotate(90deg);
+    }
+
+    .screen5 .buttonsBlock a {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .locationName {
+        font-size: 20px;
+    }
+
+    .screen2 .title, .screen3 .title, .screen4 .title {
+        font-size: 30px;
+    }
+
+    .screen5 .title {
+        font-size: 3.5vw;
+    }
+
+    .contactsBlock {
+        flex-direction: column;
+    }
+
+    .contactsTextBlock:last-child {
+        margin: 0;
+    }
+
+    .s3itemPanel {
+        width: 21vw;
+        height: 4vw;
+        padding: 0.4vw 3vw;
+        max-width: 220px;
+        max-height: 40px;
+    }
+
+    button.s3button {
+        padding: 12px 35px;
+    }
+
+    .screen3 .swiper {
+        height: 330px;
+    }
+
+    .s3itemIcon {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+    }
+
+    .swiper-button-next {
+        transform: translate(calc(-50% + 80px) , 0px);
+    }
+    .swiper-button-prev {
+        transform: translate(calc(-50% - 80px) , 0px);
+    }
+
+    .logo {
+        width: 150px;
+        height: 60px;
+    }
+
+    .mainScreen .buttonsBlock button {
+        width: 20vw;
+        height: 5vw;
+        border-radius: 0.7vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .screenContent, .headerContent , .screen1Slide .title, .screen1Slide .description, .mainScreen .buttonsBlock{
+        max-width: 600px;
+    }
+
+    .s4Name {
+        height: 36px;
+        font-size: 16px;
+        padding: 10px 20px;
+        align-items: center;
+    }
+
+    .logo {
+        width: 160px;
+        height: 60px;
+    }
+
+    .headerLi {
+        font-size: 16px;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .slide {
+        width: calc(100% - 80px);
+        padding: 0px 40px;
+    }
+
+    .buttonsBlock {
+        align-self: flex-start;
+        flex-direction: column;
+    }
+
+    .mainScreen .buttonsBlock button {
+        width: 170px;
+        height: 40px;
+        border-radius: 9px;
+    }
+
+    .screen1Slide3 .slideImage1 {
+        transform: translate(calc(-50% - 2vw), calc(-50% - -2vw));
+    }
+    .screen1Slide5 .slideImage1 {
+        transform: translate(calc(-50% - -11vw), calc(-50% - -14.2vw));
+    }
+
+    .screen5 .buttonsBlock button , .screen5 .buttonsBlock a {
+        justify-content: center;
+        margin: 0px 0px 10px 0px;
+        width: 270px;
+        height: 55px;
+    }
+
+    .screen2 .description {
+        margin: 15px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .screen2 .title:after, .screen3 .title:after, .screen4 .title:after {
+        width: 500px;
+    }
+
+    .screenContent {
+        width: calc(100% - 80px);
+        padding: 0px 40px;
+    }
+
+    .videoBlock {
+        min-width: unset;
+        width: 100%;
+        height: 48vw;
+    }
+
+    .screen3 .description {
+        max-width: unset;
+        font-size: 17px;
+    }
+
+    .screen4 .blcok2 {
+        margin: 20px 0px 0px 0px;
+    }
+    .locationInfoBlock {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .locationDescription {
+        max-width: unset;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .screen5 .buttonsBlock {
+        align-self: center;
+    }
+
+    .footerMenu {
+        padding: 0px 40px;
+        width: calc(100% - 80px);
+    }
+
+    .footerDescription {
+        max-width: 180px;
+    }
+
+    .s3itemPanel {
+        width: 35vw;
+        height: 5.5vw;
+    }
+
+    .screen2 .block3 {
+        flex-direction: column;
+    }
+
+    .screen2 .illustrationBlock {
+        position: relative;
+        height: 20vw;
+    }
+
+    .screen2 .imageBlock1 {
+        transform: translate(calc(-50% + 0px), calc(-50% - 50px));
+    }
+
+    .screen2 .imageBlock2 {
+        transform: translate(calc(-50% + 140px), calc(-50% - 110px));
+    }
+
+    .screen4Item {
+        width: 250px;
+        min-width: 250px;
+        height: 350px;
+    }
+
+    .screen4Item.opened {
+        width: 600px;
+        min-width: 600px;
+    }
+
+    .screen1Slide .description {
+        top: 30%;
+    }
+
+    .screen1Slide .title {
+        top: 40%;
+    }
+
+    .mainScreen .buttonsBlock {
+        align-self: center;
+        top: 67%;
+    }
+
+    .screen.mainScreen .slideNavBlock {
+        top: 48%;
+    }
+
+    .screen1Slide2 .slideIllustrationBlock div:nth-child(3){
+        z-index: 0;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .slideBackgroundImage img {
+        object-fit: cover;
+    }
+
+    .screen.mainScreen {
+        height: 70vh;
+    }
+
+    .location p {
+        font-size: 16px;
+    }
+
+
+    .screen1Slide .description {
+        left: 40px;
+        top: 15vh;
+        font-size: 1.9vh;
+    }
+
+    .screen1Slide .description:after {
+        width: 45vh;
+    }
+
+    .screen1Slide .title {
+        top: 20vh;
+        left: 36px;
+        font-size: 5.7vh;
+        max-width: unset;
+    }
+
+    .mainScreen .buttonsBlock {
+        flex-direction: row;
+        left: 50%;
+        top: 36vh;
+        transform: translate(-50%, 0);
+        width: 100%;
+        justify-content: center;
+    }
+
+    .screen.mainScreen .slideNavBlock {
+        left: 0;
+        top: calc(35vh + 40px);
+        width: 100%;
+        justify-content: center;
+        transform: unset;
+    }
+
+    .screen1Slide1 .slideImage1 {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 15vh;
+        height: 15vh;
+        transform: translate(calc(-50% - 28vh), calc(-50% - -20.2vh));
+        z-index: 1;
+    }
+
+    .mainScreen .buttonsBlock a {
+        margin: 0px 15px 1vw 0px;
+    }
+
+    .headerButton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        width: 80px;
+        height: 80px;
+        background-color: rgba(181, 166, 155, 0.5);
+        border-radius: 50%;
+        z-index: 20;
+    }
+
+    .line {
+        width: 50%;
+        height: 2px;
+        margin: 3px 0px;
+        background-color: white;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        left: unset;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        background-color: transparent;
+        transform: translate(0%, -101%);
+        transition: 1s;
+        z-index: 10;
+    }
+    .header.active {
+        transform: translate(0%, 0);
+    }
+
+    .headerContent {
+        flex-direction: column;
+    }
+
+    .headerOverlay {
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+        transform: translate(0, -100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.25s;
+        z-index: 0;
+    }
+    .headerOverlay.active {
+        transform: translate(0, 0%);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .logo {
+        z-index: 1;
+    }
+
+    .headerUl {
+        flex-direction: column;
+        z-index: 1;
+    }
+    .headerLi {
+        justify-content: center;
+        font-size: 24px;
+        text-align: center;
+        margin: 30px 0px 0px 0px;
+    }
+    .headerLi:first-child {
+        margin: 30px 0px 0px 0px;
+    }
+    .headerLi:last-child {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .slide .title {
+        font-size: 35px;
+    }
+
+    .screen2 .title:after, .screen3 .title:after, .screen4 .title:after {
+        width: 400px;
+    }
+
+    .screen2 .description {
+        font-size: 17px;
+    }
+
+    .screen2 .title, .screen3 .title, .screen4 .title {
+        font-size: 24px;
+    }
+
+    .screen2 button {
+        width: 100%;
+    }
+
+    .locationInfoBlock .image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .locationInfoBlock {
+        font-size: 13px;
+    }
+
+    .destinationBlock , .stopBlock {
+        margin: 0px 20px 0px 0px;
+    }
+
+    .footerMenu {
+        flex-direction: column;
+    }
+
+    .footerContacts {
+        margin: 40px 0px 0px 0px;
+    }
+
+    .contactsBlock {
+        margin: 5px 0px 0px 0px;
+    }
+
+    .s3itemPanel {
+        width: 45vw;
+        height: 7.5vw;
+        padding: 1vw 6vw;
+        max-width: 220px;
+        max-height: 45px;
+    }
+
+    .screen2 .buttonsBlock {
+        width: 100%;
+    }
+
+    .screen2 .buttonsBlock a, .screen2 button {
+        width: 100%;
+    }
+
+    .screen4Item {
+        width: 200px;
+        min-width: 200px;
+        height: 250px;
+    }
+    .screen4Item:first-child {
+        margin: 0px 2vw 0px 4vw;    
+    }
+    .screen4Item:last-child {
+        margin: 0px 4vw 0px 2vw;    
+    }
+
+    .screen4Item.opened {
+        width: 440px;
+        min-width: 440px;
+    }
+
+    .sliderBlock {
+        justify-content: flex-start;
+        overflow-x: scroll;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .sliderBlock::-webkit-scrollbar {
+        height: 3px;
+    }  
+
+
+
+    .screen1Slide2 .slideImage1 {
+        transform: translate(calc(-50% - 18vh), calc(-50% - -15.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+    .screen1Slide2 .slideImage2 {
+        transform: translate(calc(-50% - 4vh), calc(-50% - -20.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .screen1Slide3 .slideImage1 {
+        transform: translate(calc(-50% - 19vh), calc(-50% - -7.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .screen1Slide4 .slideImage1 {
+        display: none;
+        transform: translate(calc(-50% - 19vh), calc(-50% - -7.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+    .screen1Slide4 .slideImage2 {
+        transform: translate(calc(-50% - -24vh), calc(-50% - -18.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+    .screen1Slide5 .slideImage1 {
+        transform: translate(calc(-50% - -24vh), calc(-50% - -18.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .locationInfoBlock {
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+
+    .destinationBlock, .stopBlock {
+        margin: 0px 20px 5px 0px;
+    }
+
+    .timeBlock {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .screen1Slide1 .slideImage1 {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 15vh;
+        height: 15vh;
+        transform: translate(calc(-50% - 10vh), calc(-50% - -46.2vh));
+        z-index: 1;
+    }
+
+    .screen1Slide2 .slideImage1 {
+        transform: translate(calc(-50% - 18vh), calc(-50% - -15.7vh));
+        width: 15vh;
+        height: 13vh;
+    }
+
+    .screen1Slide4 .slideImage2 {
+        transform: translate(calc(-50% - -19vh), calc(-50% - -20.7vh));
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .screen1Slide5 .slideImage1 {
+        display: none;
+    }
+
+    .screen1Slide4 .slideBackgroundImage img {
+        object-fit: none;
+        object-position: 46%;
+    }
+    .screen1Slide5 .slideBackgroundImage img {
+        object-fit: none;
+        object-position: 50% 70%;
+    }
+
+
+
+    .screen1Slide .title {
+        top: 25%;
+        left: unset;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        max-width: unset;
+    }
+
+    .screen1Slide .description {
+        top: 21%;
+        left: unset;
+        font-size: 16px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mainScreen .buttonsBlock {
+        flex-direction: column;
+        top: 68dvh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .screen.mainScreen .slideNavBlock {
+        top: 87dvh;
+    }
+
+    .mainScreen .buttonsBlock button {
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .mainScreen .buttonsBlock a {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .screen1Slide .description:after {
+        width: 320px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: -6px;
+        margin: 0;
+        height: 1px;
+        background-image: unset;
+        background-color: #ffffff96;
+        background-position: center;
+    }
+
+    .screen.mainScreen {
+        width: 100%;
+        height: 110vh;
+        padding: 0;
+    }
+
+    .slide {
+        width: calc(100% - 8vw);
+        padding: 0px 4vw;
+    }
+
+    .slide .screenContent {
+        left: 0;
+        top: 150px;
+        width: calc(100% - 8vw);
+        padding: 0 4vw;
+    }
+
+    .slide .title {
+        font-size: 10vw;
+    }
+
+    .slide .description {
+        font-size: 5.7vw;
+    }
+
+    .slide1 .slideBackgroundBlock {
+        height: 100%;
+    }
+
+    .slideBackgroundImage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .slide1 .slideImage1 {
+        width: 16vh;
+        height: 16vh;
+        transform: translate(calc(-50% - 21vh), calc(-50% - -45vh));
+    }
+    .slide1 .slideImage2 {
+        width: 55vh;
+        height: 25vh;
+        transform: translate(calc(-50% - 22vh), calc(-50% + 30vh));
+    }
+
+    .screen.screen2 {
+        margin: 0px 0px 150px 0px;
+    }
+
+    .screen5 .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .screenContent, .footerMenu {
+        width: calc(100% - 8vw);
+        padding: 0px 4vw;
+    }
+
+    .screen2 .illustrationBlock {
+        position: relative;
+        height: 50vw;
+    }
+
+    .screen3 .swiper {
+        padding: 0 4vw;
+    }
+
+    .s3itemPanel {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 39vw;
+        height: 7.5vw;
+        padding: 1vw 7.7vw;
+    }
+
+    .screen3 .swiper {
+        height: 350px;
+    }
+
+    .screen4Item {
+        width: 55vw;
+        min-width: 55vw;
+        margin: 0px 2vw;
+    }
+
+    .screen4Item.opened {
+        width: 92vw;
+        min-width: 92vw;
+    }
+
+}
