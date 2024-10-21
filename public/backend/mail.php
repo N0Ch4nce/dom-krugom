@@ -39,7 +39,7 @@ function sendMail(string $body, ?string $attachmentPath): string
     $mail->Subject = 'Заявка';
     $mail->Body = $body;
     if ($attachmentPath) {
-        $mail->addAttachment($attachmentPath, 'Прикрепленный файл' . PHPMailer::mb_pathinfo($attachmentPath, PATHINFO_EXTENSION) );
+        $mail->addAttachment($attachmentPath, 'Прикрепленный файл.' . PHPMailer::mb_pathinfo($attachmentPath, PATHINFO_EXTENSION) );
     }
 
     $mail->send();
